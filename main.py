@@ -19,7 +19,7 @@ st.markdown('##')
 number = st.number_input('Jumlah Kredit Yang Ingin Diajukan',
                          value = 10000000,
                          min_value = 1000000, 
-                         max_value = 350000000,
+                         max_value = 500000000,
                          format = None)
 st.caption("Total Pinjaman:   Rp " +"{:,.2f}".format(number))
 st.markdown('#')
