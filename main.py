@@ -45,7 +45,7 @@ with st.container():
 #Button    
 principal_preview = "Rp" + "{:,.2f}".format(number)
 
-url = "'https://api.whatsapp.com/send?phone=6282319751963&text=Halo!%20Saya%20ingin%20mengajukan%20KUR%20dari%20Bank%20Mandiri%20sebesar%20"+ str(principal_preview) +"%20dengan%20tenor%20"+ str(slider_month) + "%20bulan.'"
+url = "'https://api.whatsapp.com/send?phone=6285814702261&text=Halo!%20Saya%20ingin%20mengajukan%20KUR%20dari%20Bank%20Mandiri%20sebesar%20"+ str(principal_preview) +"%20dengan%20tenor%20"+ str(slider_month) + "%20bulan.'"
 st.markdown('##')
 st.markdown(f'''
 <a href={url}><button style=
